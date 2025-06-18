@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2024-10-26",
+    "title": "Initial project setup and planning",
+    "description": "Laid out the foundational architecture and key milestones for the upcoming features. User authentication module designed.",
+    "link": "https://github.com/brainsprain/project-alpha/milestone/1",
+    "label": "planning"
+  },
+  {
+    "date": "2024-10-27",
+    "title": "Developed new API endpoint for user data",
+    "description": "Completed the backend work for the user data API. Includes GET, POST, and PUT methods. Ready for frontend integration.",
+    "link": "https://github.com/brainsprain/project-alpha/pull/12",
+    "label": "feature"
+  },
+  {
+    "date": "2024-10-25",
+    "title": "Fixed critical bug in payment processing",
+    "description": "Addressed a bug that caused payment failures for subscriptions. Deployed hotfix.",
+    "link": "https://github.com/brainsprain/project-alpha/issues/101",
+    "label": "bugfix"
+  }
+]
