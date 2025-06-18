@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<!-- Last Published: Tue, April 29 2025 16:53:51 -->
+<html lang="en-US" dir="ltr">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://assets.softr-files.com" />
+    <script>
+        const reactDefaultThemes = {defaultBaseTextSize: '16px',defaultBodyFont: 'Poppins',defaultBodyFontWeight: '300',defaultBodyTextColor: '#383B3D',defaultButtonBackgroundColor: '#212121',defaultButtonRoundness: '.5rem',defaultButtonTextColor: '#ffffff',defaultContainerStyle: 'container',defaultTitleFont: 'Poppins',defaultTitleFontWeight: '700',defaultTitleTextColor: '#383B3D',defaultSize: 'M',defaultBackgroundColor: '#FFFFFF',defaultShadow: true,defaultBackgroundStyle: 'HIGHLIGHTED'};
+    </script>
+        <script>window.isNavigationTransitionsEnabled = true; window.isViteBuildEnabled = true; </script>
+        <script src="https://assets.softr-files.com/softr-blocks/prod/libs/softr-page-renderer/softr-page-renderer.min.js?t=1750154454"></script>
+
+<meta name="twitter:title" content="brainsprain.me">
+<meta property="twitter:title" content="brainsprain.me">
+<meta property="og:title" content="brainsprain.me">
+<meta name="twitter:description" content="Personal website for brainsprain.me">
+<meta property="twitter:description" content="Personal website for brainsprain.me">
+<meta property="og:description" content="Personal website for brainsprain.me">
+<meta property="og:image" content="https://assets.softr-files.com/assets/images/random/og_default_image.png">
+<meta name="twitter:image" content="https://assets.softr-files.com/assets/images/random/og_default_image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://www.brainsprain.me/">
+<meta property="twitter:url" content="https://www.brainsprain.me/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Brainsprain">
+
+<title>brainsprain.me</title>
+<meta name="description" content="Personal website for brainsprain.me">
+
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+
+
+<link rel="canonical" href="https://www.brainsprain.me/" />
+<link href="https://fonts.softr-files.com/google/api/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+<link href="https://assets.softr-files.com/libs/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://assets.softr-files.com/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+<style type="text/css">
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+    }
+
+    body {
+        /* fallback for devices that do not support dvh units */
+        min-height: 100vh;
+        min-height: 100dvh;
+        /* reboot.css sets its own background, but we want it to match our theme */
+        background-color: inherit;
+    }
+
+    /* on html for the old and on body for the new navigation layout */
+    html[data-overscroll="false"],
+    html[data-overscroll="false"] body {
+        overscroll-behavior: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar-brand img {
+            max-width: 15rem !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    p, h1, h2, h3, h4, h5, small {
+        white-space: pre-line;
+    }
+
+    @media screen and (max-width: 768px) {
+        input, select, textarea {
+            font-size: 16px !important;
+        }
+    }
+
+    h1.sw-font-family-default,
+    h2.sw-font-family-default,
+    h3.sw-font-family-default {
+        font-family: "Poppins";
+    }
+
+    h1.sw-font-weight-default,
+    h2.sw-font-weight-default,
+    h3.sw-font-family-default {
+        font-weight: 700;
+    }
+
+    h1.sw-text-color-default,
+    h2.sw-text-color-default,
+    h3.sw-font-family-default {
+        color: #383B3D;
+    }
+
+    section.sw-font-family-default,
+    header.sw-font-family-default,
+    nav.sw-font-family-default,
+    footer.sw-font-family-default,
+    div.sw-font-family-default,
+    span.sw-font-family-default,
+    small.sw-font-family-default,
+    pre.sw-font-family-default,
+    p.sw-font-family-default,
+    b.sw-font-family-default,
+    li.sw-font-family-default,
+    ul.sw-font-family-default,
+    a.sw-font-family-default,
+    h4.sw-font-family-default,
+    h5.sw-font-family-default,
+    h6.sw-font-family-default {
+        font-family: "Poppins";
+    }
+
+    span.sw-font-weight-default,
+    li.sw-font-weight-default span,
+    small.sw-font-weight-default,
+    li.sw-font-weight-default small,
+    pre.sw-font-weight-default,
+    p.sw-font-weight-default,
+    h4.sw-font-weight-default,
+    h5.sw-font-weight-default,
+    h6.sw-font-weight-default {
+        font-weight: 300;
+    }
+
+    span.sw-text-color-default,
+    li.sw-text-color-default span,
+    small.sw-text-color-default,
+    li.sw-text-color-default small,
+    pre.sw-text-color-default,
+    p.sw-text-color-default,
+    div.sw-text-color-default,
+    h4.sw-text-color-default,
+    h5.sw-text-color-default,
+    h6.sw-text-color-default {
+        color: #383B3D;
+    }
+
+    input.sw-font-family-default,
+    textarea.sw-font-family-default {
+        font-family: "Poppins";
+    }
+
+    input.sw-font-weight-default,
+    textarea.sw-font-weight-default {
+        font-weight: 300;
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-family: "Poppins";
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-weight: 300;
+    }
+
+    .sw-text-color-default[data-element='button'] {
+        color: #ffffff;
+    }
+
+    .sw-background-color-default[data-element='button'] {
+        background-color: #212121;
+    }
+
+    .sw-border-radius-default[data-element='button'] {
+        border-radius: .5rem;
+    }
+
+    /* Micromodal styles */
+    .sw-modal {
+        display: none;
+    }
+
+    .sw-modal.is-open {
+        display: block;
+    }
+
+    .sw-modal .sw-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .sw-modal .sw-modal-container {
+        background-color: #FFFFFF;
+        padding: 40px 10px 10px 10px;
+        overflow-y: auto;
+        box-sizing: border-box;
+        position: relative;
+        margin: auto;
+        border-radius: 16px;
+    }
+
+    .sw-modal #sw-modal-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sw-modal .sw-modal-close {
+        background: transparent;
+        border: 0;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .sw-modal-close:focus {
+        outline: none;
+    }
+
+    .sw-modal .sw-modal-iframe {
+        border: none;
+    }
+
+    .sw-modal-size-sm {
+        width: 464px;
+        height: 350px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+
+    .sw-modal-size-md {
+        width: 755px;
+        height: 600px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-lg {
+        width: 1196px;
+        height: 780px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-xl {
+        width: 95vw;
+        height: 95vh;
+    }
+
+    .sw-modal-container > div, #sw-modal-content, #sw-modal-content iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sw-modal-close:before {
+        content: "\2715";
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+
+</style>
+
+
+<style>
+    .sw-font-size-3xl {
+        font-size: 2rem;
+    }
+    .sw-font-size-4xl {
+        font-size: 2.25rem;
+    }
+    .sw-font-size-5xl {
+        font-size: 3rem;
+    }
+
+</style>
+
+<!-- App Integrations -->
+
+<!-- End Integrations -->
+
+
+
+<script>window['application_context'] = {}; window['application_context']['policies'] ={"numberOfSupportedDomains":2,"canDisableSoftrBranding":true,"hasSoftrBrandingFooterBoundSupport":true,"numberOfDatasourceRecordsPerTable":25000,"numberOfInternalUsers":50,"numberOfExternalUsers":5000,"supportedNumberOfMembershipUsers":100000,"hasGoogleAuthenticationSupport":true,"hasSamlAuthenticationSupport":false,"hasOpenIdAuthenticationSupport":false,"hasUserLastSeenSupport":false,"hasUserAuthOneTimeCodeSupport":true,"numberOfDaysApplicationHistory":30,"hasCustomCodeSupport":true,"hasEmbedBlockSupport":true,"hasTransferApplicationsAcrossWorkspace":true,"hasPwaSupport":false,"hasSignatureFieldSupport":true,"hasFormConditionsSupport":true,"hasTransferOwnershipSupport":null,"hasActionButtonRecordLevelVisibilitySupport":true,"hasActionButtonCustomUserGroupVisibilitySupport":false,"numberOfUsersInWorkspace":null,"numberOfCustomUserGroups":null,"numberOfPublishedApplications":null,"restrictedDataSources":["HUBSPOT","GOOGLE_BIGQUERY","MYSQL","POSTGRESQL","SQL_SERVER","MARIADB"],"restrictedBlocks":["org-chart","Timeline","signin-with-phone"],"hasInlineEditingSupport":true,"hasFilteredUserSyncSupport":true,"restrictedActions":[],"hasEditAddFormOptionFilterSupport":null,"hasCustomEmailSenderSupport":true,"hasSoftrApiSupport":true,"hasDomainRestrictedSignUpSupport":true,"supportedDataRestrictionOperations":["VIEW"],"hasHideBlockOnDetailsPageSupport":null,"hasOptionFilterSupport":null,"hasCustomDomainAddOnSupport":true,"hasUserAddOnSupport":false}; window['application_context']['date_and_time_settings'] = {"formatSettings":{"type":"LOCAL","localSettings":{"localizeDayAndMonth":true},"fixedSettings":null},"timezoneSettings":{"type":"LOCAL","fixedTimezone":null}}; window['application_context']['number_formatting_settings'] = {"type":"LOCAL","fixedLocale":"en-US"}; window['application_context']['user_settings'] = {"authSettings":null,"autoInvite":false}; window['application_context']['user_connection'] = null; </script>
+
+<style>
+ .sw-font-size-5xl {
+    font-size: 3rem;
+  }
+  .sw-font-size-4xl {
+    font-size: 2.25rem;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if($(window).width() < 768) {
+       $('h1.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('h2.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('div.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('p.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('span.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+    }
+  });
+</script>
+
+
+
+
+<script>window['is401Page'] = false; </script>
+
+
+<script>
+    const BlocksRenderedEventName = "@softr/page-content-loaded";
+</script>
+
+<!--Adds show-toolbar=true into action button query param only for softr.io templates preview flow. TODO uncomment after redirections are fixed-->
+<!--<script>-->
+<!--    setTimeout(() => {-->
+<!--        if (!window.location.href.includes('https://www.softr.io/templates')) {-->
+<!--            return;-->
+<!--        }-->
+<!--        const heroElement = document.getElementById('hero1');-->
+<!--        if (!heroElement) {-->
+<!--            return;-->
+<!--        }-->
+<!--        const links = heroElement.querySelectorAll('a');-->
+<!--        links.forEach(link => {-->
+<!--            const href = link.getAttribute('href');-->
+<!--            // if conditions:-->
+<!--            // 1. if href is not empty for a tag-->
+<!--            // 2. if href does not contain the softr.io dashboard link (hero "Use Template" button)-->
+<!--            // 3. if href does not already contain the show-toolbar=true query param-->
+<!--            // 4. if href contains http or https (that is if not the 'open-page' action when href is like href="/my-page", as it's handled from BE)-->
+<!--            if (href && !href.includes('https://studio.softr.io/dashboard') && !href.includes('show-toolbar=true') && (href.includes("https://") || href.includes("http://"))) {-->
+<!--                if (href.includes('?')) {-->
+<!--                    link.setAttribute('href', href + '&show-toolbar=true');-->
+<!--                } else {-->
+<!--                    link.setAttribute('href', href + '?show-toolbar=true');-->
+<!--                }-->
+<!--            }-->
+<!--        });-->
+<!--    }, 2000);-->
+<!--</script>-->
+
+<script>
+    function applyMobileTextSizesForV4Blocks() {
+        const width = window.innerWidth;
+
+        const largeElements = [
+            'h1.sw-font-size-10xl', 'h1.sw-font-size-9xl', 'h1.sw-font-size-8xl', 'h1.sw-font-size-7xl',
+            'h2.sw-font-size-10xl', 'h2.sw-font-size-9xl', 'h2.sw-font-size-8xl', 'h2.sw-font-size-7xl',
+            'h3.sw-font-size-10xl', 'h3.sw-font-size-9xl', 'h3.sw-font-size-8xl', 'h3.sw-font-size-7xl',
+            'div.sw-font-size-10xl', 'div.sw-font-size-9xl', 'div.sw-font-size-8xl', 'div.sw-font-size-7xl',
+            'p.sw-font-size-10xl', 'p.sw-font-size-9xl', 'p.sw-font-size-8xl', 'p.sw-font-size-7xl',
+            'span.sw-font-size-10xl', 'span.sw-font-size-9xl', 'span.sw-font-size-8xl', 'span.sw-font-size-7xl',
+        ];
+
+        const smallElements = [
+            'h1.sw-font-size-6xl', 'h2.sw-font-size-6xl', 'h3.sw-font-size-6xl', 'div.sw-font-size-6xl', 'p.sw-font-size-6xl', 'span.sw-font-size-6xl',
+        ];
+
+        if (width < 576) {
+            largeElements.forEach(selector => {
+                document.querySelectorAll(selector).forEach(el => {
+                    el.classList.remove(selector.split('.').slice(1).join(' '));
+                    el.classList.add('sw-font-size-4xl');
+                });
+            });
+
+            smallElements.forEach(selector => {
+                document.querySelectorAll(selector).forEach(el => {
+                    el.classList.remove(selector.split('.').slice(1).join(' '));
+                    el.classList.add('sw-font-size-3xl');
+                });
+            });
+        } else if (width < 768) {
+            largeElements.forEach(selector => {
+                document.querySelectorAll(selector).forEach(el => {
+                    el.classList.remove(selector.split('.').slice(1).join(' '));
+                    el.classList.add('sw-font-size-5xl');
+                });
+            });
+
+            smallElements.forEach(selector => {
+                document.querySelectorAll(selector).forEach(el => {
+                    el.classList.remove(selector.split('.').slice(1).join(' '));
+                    el.classList.add('sw-font-size-4xl');
+                });
+            });
+        }
+    }
+</script>
+
+<!-- This script synchronizes the query parameters and path of the top window with those of the iframe.
+     It updates the top window's URL, and include any query parameters from the iframe's URL
+     when the iframe's path is redirected. -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if (shouldNotReplaceTopWithCurrent()) {
+            return;
+        }
+        try {
+            const currentUrl = new URL(window.location.href);
+            const topUrl = new URL(window.top.location.href);
+
+            const currentParams = new URLSearchParams(currentUrl.search);
+            const topParams = new URLSearchParams(topUrl.search);
+
+            for (const [key, value] of topParams) {
+                // do not append duplicate query parameters
+                if (!currentParams.has(key) && !Array.from(currentParams).some(([k, v]) => k === key)) {
+                    currentParams.append(key, value);
+                }
+            }
+
+            currentUrl.search = currentParams.toString();
+            window.top.history.pushState(null, '', currentUrl.toString());
+        } catch (error) {
+            console.error("An error occurred while updating query parameters:", error);
+        }
+    });
+
+    function shouldNotReplaceTopWithCurrent() {
+        if (window.location.href.split('?')[0] === window.top.location.href.split('?')[0]) {
+            return true;
+        }
+
+        if ("false" !== "true" && !window.top.location.href.includes(".preview.")) {
+            return true;
+        }
+
+        if ("false" === "true" || window.location.href.includes("viewMode=modal") || window.location.href.includes("viewMode%3Dmodal")) {
+            return true;
+        }
+
+        return false;
+    }
+</script>
+
+<script>
+    /** Image lineup on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        function changeImageDirectionsOnMobile() {
+
+            const classListSection = $('body>div>section')?.attr('class')?.split(/\s+/);
+            const textClassSection = classListSection?.find(cls => cls.startsWith('feature'));
+
+            const classListHeader = $('body>div>header')?.attr('class')?.split(/\s+/);
+            const textClassHeader = classListHeader?.find(cls => cls.startsWith('hero'));
+
+            /*If FEATURE block*/
+            if (textClassSection) {
+                findRowsWidthImageAndReverse(textClassSection)
+            }
+
+            /*If HERO block*/
+            if (textClassHeader) {
+                findRowsWidthImageAndReverse(textClassHeader)
+            }
+        }
+
+        function findRowsWidthImageAndReverse(textClass) {
+            const rowsWithImages = $('.' + textClass + ' .row.align-items-center').has('img').toArray();
+            const rowsWithLeftSideImages = rowsWithImages.filter(row => {
+                return $(row).children().first().children().first().prop("tagName") === 'IMG';
+            });
+
+
+            rowsWithLeftSideImages.forEach(row => {
+                if ($(window).width() <= 768) {
+                    row.classList.add('flex-column-reverse')
+                }
+            });
+        }
+
+        if ($(window).width() <= 768) {
+            changeImageDirectionsOnMobile();
+        }
+
+        window.parent.postMessage({ name: 'previewIframeLoaded' }, '*');
+    });
+
+    /** BG Size on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        if ($(window).width() <= 768) {
+            var element = $('section.sw-background-size-auto, header.sw-background-size-auto');
+            element.removeClass('sw-background-size-auto');
+            element.css('background-size', 'cover');
+
+            $('section.sw-background-attachment-fixed, header.sw-background-attachment-fixed').removeClass('sw-background-attachment-fixed');
+        }
+    });
+
+    /** Disable zoom on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        if ($(window).width() <= 768) {
+            $('input.sw-font-size-s').removeClass('sw-font-size-s');
+            $('textarea.sw-font-size-s').removeClass('sw-font-size-s');
+            $('select.sw-font-size-s').removeClass('sw-font-size-s');
+        }
+    });
+
+    window.addEventListener('user-sign-out', (e) => {
+        const message = {
+            name: 'user-sign-out-triggered',
+        };
+
+        window.parent.postMessage(message, '*');
+    });
+
+    /** Disable overscroll **/
+    /** overscroll-behavior: none; doesn't work properly in Safari (it disables the scroll completely there) **/
+    if (!isSafari()) {
+        document.documentElement.setAttribute("data-overscroll", "false");
+    }
+
+    function isSafari() {
+        const chromeAgent = window.navigator.userAgent.includes("Chrome");
+        const safariAgent = window.navigator.userAgent.includes("Safari");
+
+        // Google Chrome also contains "Safari" user agent.
+        return safariAgent && !chromeAgent;
+    }
+</script>
+
+
+</head>
+
+<body>
+
+
+<div id="page-content" data-appsubdomain="brainsprain.softr.app" data-pageId="7096a193-68ed-4d0f-834a-cebf78746743" data-paymentplan="price_1MWTnPIWZwIztnHl4re0irIq" class="content">
+
+</div>
+
+
+
+<!-- Scripts -->
+<script src="https://assets.softr-files.com/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://assets.softr-files.com/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://assets.softr-files.com/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://assets.softr-files.com/libs/micromodal/0.4.10/micromodal.min.js"></script>
+
+<script>
+    /** this function is called from list blocks (do not delete) **/
+    function openSwModal(url, size) {
+        MicroModal.init({
+            disableScroll: true,
+            awaitOpenAnimation: true,
+            awaitCloseAnimation: true
+        });
+
+        MicroModal.show("sw-modal");
+
+        const iframeElem = document.querySelector(".sw-modal-iframe");
+        const modalContainer = document.querySelector(".sw-modal-container");
+
+        const viewModeParam = "viewMode=modal";
+        const urlIsLocal = url.startsWith('#') || url.startsWith('/') || url.startsWith(window.location.origin);
+        const modalUrl = urlIsLocal ? (url.indexOf("?") !== -1 ? url + "&" + viewModeParam : url + "?" + viewModeParam) : url;
+        iframeElem.setAttribute("src", modalUrl);
+
+        modalContainer.classList.remove('sw-modal-size-sm', 'sw-modal-size-md', 'sw-modal-size-lg', 'sw-modal-size-xl');
+        modalContainer.classList.add('sw-modal-size-' + size);
+
+        setTimeout(() => {
+            // Add event listener to detect when the modal is closed
+            const closeButton = document.querySelector('.sw-modal-close');
+            const backdrop = document.querySelector('.sw-modal-overlay');
+
+            closeButton.addEventListener('click', resetIframe);
+            backdrop.addEventListener('click', resetIframe);
+        }, 1000)
+
+    }
+
+    const resetIframe = () => {
+        const iframeElem = document.querySelector('.sw-modal-iframe');
+        iframeElem.removeAttribute('src');
+    }
+</script>
+
+<script>
+    /** Bugfix on multiple ?recordId= issue **/
+    setInterval(function () {
+        $('section a').each(function () {
+            const href = $(this).attr('href');
+            if (href && href.includes('?recordId=')) {
+                const countOfRecords = (href.match(/\?recordId=/g) || []).length;
+                if (countOfRecords > 1) {
+                    const index = href.lastIndexOf('?recordId=');
+                    const cleanedHref = href.substring(0, index);
+                    $(this).attr('href', cleanedHref);
+                }
+            }
+        });
+    }, 1000);
+</script>
+
+<script type="text/javascript">
+    if (window.jQuery && window.jQuery.ajaxSetup) {
+        window.jQuery.ajaxSetup({
+            beforeSend: function (xhr, settings) {
+                if (settings && settings.url && (
+                    settings.url.includes('/integrations/airtable/')
+                    || settings.url.includes('/v1/applications/b233ab78-727c-424f-8c3f-444616937ff8')
+                    || settings.url.includes('/v1/comments')
+                    || settings.url.includes('/v3/comments')
+                    || settings.url.includes('/forms/form-to-email')
+                    || settings.url.includes('/forms/form-to-api'))
+                ) {
+                    xhr.setRequestHeader('softr-page-id', '7096a193-68ed-4d0f-834a-cebf78746743');
+                }
+            }
+        });
+    }
+
+    window['home_header2'] = {}; const block_4415ae3881ef4cfb87ca613c954619c5_defJson = {"id":"4415ae38-81ef-4cfb-87ca-613c954619c5","version":"3.1.0","hrid":"home_header2","name":"header2","title":"Header with links and buttons","image":"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/header2.png","category":"Header","keywords":"header, simple, nav bar, navigation panel","elements":{"definitions":{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"value":"Link name","action":{"type":"navigate","options":{"url":{"destination":"","target":""},"modalOptions":{"modalSize":"md"}}}},"profileLink":{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-normal"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"value":"Link name","action":{"type":"navigate","options":{"url":{"destination":"","target":""},"modalOptions":{"modalSize":"md"}}}},"icon":{"tag":"i","type":"icon","primaryStyles":[{"name":"size-color","label":"Icon Size/Color","isPrimary":true,"showFor":"icon","classes":["sw-font-size-s","sw-text-color-13324b"]},{"name":"width","label":"Icon Size","isPrimary":true,"showFor":"image","classes":["sw-width-11xs"]}],"provider":"font-awesome","value":"fas fa-shield-alt","src":""}},"compositeLink":{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"value":"Link name","action":{"type":"navigate","options":{"url":{"destination":"","target":""},"modalOptions":{"modalSize":"md"}}}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}},"button":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-full"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-default"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-2xs","sw-padding-right-2xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-6xs","sw-padding-bottom-6xs"]},{"name":"border-style","label":"Border Style","isPrimary":true,"classes":["sw-border-color-2977c9","sw-border-style-solid","sw-border-width-xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"label":"Button label","action":{"type":"navigate","options":{"url":{"destination":"","target":""},"modalOptions":{"modalSize":"md"}}}}},"sticky":true,"profileEnabled":false,"verticalEnabled":false,"container":{"tag":"nav","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"padding-top","label":"Padding top","isPrimary":true,"classes":["sw-padding-top-6xs"]},{"name":"padding-bottom","label":"Padding bottom","isPrimary":true,"classes":["sw-padding-bottom-6xs"]},{"name":"border-top","label":"Border top","isPrimary":true,"classes":["sw-border-top-style-none","sw-border-top-width-xs","sw-border-top-color-000000"]},{"name":"border-bottom","label":"Border bottom","isPrimary":true,"classes":["sw-border-bottom-style-none","sw-border-bottom-width-xs","sw-border-bottom-color-000000"]}]},"logo":{"tag":"img","type":"image-with-link","primaryStyles":[{"name":"width","label":"Width","isPrimary":true,"classes":["sw-width-4xs"]}],"src":"https://assets.softr-files.com/applications/b233ab78-727c-424f-8c3f-444616937ff8/assets/82d7e75b-cdd6-4bda-a28b-660927517e7c.png","alt":""},"links":{"type":"array","item_type":"#/elements/definitions/compositeLink","items":[{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[],"value":"home","action":{"type":"navigate","options":{"url":{"destination":"/","target":""},"modalOptions":{"modalSize":"md"}},"action":"Open page > Home"}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}},{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[],"value":"writing","action":{"type":"navigate","options":{"url":{"destination":"#","target":""},"modalOptions":{"modalSize":"md"}},"action":"Open external url > #"}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}},{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-display-block","sw-padding-top-6xs","sw-padding-bottom-6xs","sw-padding-left-6xs","sw-padding-right-xs","hover:sw-text-decoration-no-underline"]}],"value":"investments","action":{"type":"navigate","options":{"url":{"destination":"#","target":"_blank"},"modalOptions":{"modalSize":"md"}},"action":"Open external url > #"}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}},{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-display-block","sw-padding-top-6xs","sw-padding-bottom-6xs","sw-padding-left-6xs","sw-padding-right-xs","hover:sw-text-decoration-no-underline"]}],"value":"publications","action":{"type":"navigate","options":{"url":{"destination":"/publications","target":""},"modalOptions":{"modalSize":"md"}},"action":"Open page > publications"}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}},{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-semibold"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-display-block","sw-padding-top-6xs","sw-padding-bottom-6xs","sw-padding-left-6xs","sw-padding-right-xs","hover:sw-text-decoration-no-underline"]}],"value":"twitter","action":{"type":"navigate","options":{"url":{"destination":"#","target":"_blank"},"modalOptions":{"modalSize":"md"}},"action":"Open external url > #"}},"subLinks":{"type":"array","item_type":"#/elements/definitions/link","items":[]}}]},"buttons":{"type":"array","item_type":"#/elements/definitions/button","items":[]},"profileLinks":{"type":"array","item_type":"#/elements/definitions/profileLink","items":[{"link":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-000000"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-normal"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[],"value":"Sign Out","action":{"type":"navigate","options":{"url":{"destination":"action:signout","target":""},"modalOptions":{"modalSize":"md"}},"action":"Sign Out"}},"icon":{"tag":"i","type":"icon","primaryStyles":[{"name":"size-color","label":"Icon Size/Color","isPrimary":true,"showFor":"icon","classes":["sw-font-size-s","sw-text-color-13324b"]},{"name":"width","label":"Icon Size","isPrimary":true,"showFor":"image","classes":["sw-width-11xs"]}],"otherStyles":[],"provider":"font-awesome","value":"fas fa-power-off","src":""}}]},"profileIcon":{"tag":"img","primaryStyles":[{"name":"size-color","label":"Icon Size/Color","isPrimary":true,"showFor":"icon","classes":["sw-font-size-s","sw-text-color-ffffff"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-9ea5b4"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-9ea5b4"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-background-attachment-scroll","sw-background-repeat-no-repeat","sw-background-position-center","sw-background-size-cover"]}],"src":"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/user_profile1.jpg","value":""},"modalSizeOptions":[{"className":"sw-letter-s","key":"sm"},{"className":"sw-letter-m","key":"md"},{"className":"sw-letter-l","key":"lg"},{"className":"sw-letter-xl","key":"xl"}]},"type":"static","collection":null,"enabled":"true","order":"null","updated":[{"date":[2024,10,11,22,40,34,116000000],"version":"3.0.1"},{"date":[2024,10,11,22,40,34,116000000],"version":"3.1.0"}],"visibility":{"userGroup":{"predefinedUserGroupType":"NON_LOGGED_IN_USERS","customUserGroupIds":[],"enabledPredefinedUserGroupTypes":["ALL_USERS","LOGGED_IN_USERS","NON_LOGGED_IN_USERS"]},"devices":null,"detailsPageRecordCondition":null},"settings":{},"container":null,"presets":null,"created_at":null};
+SoftrPageRenderer.render({blocks: [block_4415ae3881ef4cfb87ca613c954619c5_defJson], targetElement: document.getElementById('page-content'), workspaceId: "d7d0eae6-69da-4b92-a7da-efc02b1ff655", appId: "b233ab78-727c-424f-8c3f-444616937ff8", pageId: "7096a193-68ed-4d0f-834a-cebf78746743", paymentPlan: "price_1MWTnPIWZwIztnHl4re0irIq", baseUrl: "https://assets.softr-files.com/softr-blocks/prod/blocks",theme: reactDefaultThemes, appCustomHeaderCode: "", pageCustomHeaderCode: "", appCustomFooterCode: "", pageCustomFooterCode: "", featureFlags: {"navigationLayout": false}, context: {"application_context": {"application_logo":null,"date_and_time_settings":{"format_settings":{"type":"LOCAL","local_settings":{"localize_day_and_month":true},"fixed_settings":null},"timezone_settings":{"type":"LOCAL","fixed_timezone":null}},"number_formatting_settings":{"type":"LOCAL","fixed_locale":"en-US"},"user_settings":{"auth_settings":null,"auto_invite":false},"user_connection":null,"user_group_redirection":null,"polling_configs":{"defaultPollingInterval":10000,"datasources":{"MONDAY":8000,"SOFTR_TABLES":8000,"CLICKUP":8000,"CODA":8000,"GOOGLE_SHEET":0,"SMARTSUITE":8000,"NOTION":8000}},"comment_settings":{"general_settings":{"allow_mentions":false,"allow_attachments":false,"rich_text_formatting":false,"block_display_settings":{"sort_direction":"NEWEST_ON_TOP","surface":false,"show_vertical_line":false},"side_panel_display_settings":{"sort_direction":"NEWEST_ON_TOP","surface":false,"show_vertical_line":false,"comment_panel_display_mode":"PUSH_MAIN_CONTENT"},"keep_comments_for_inactive_users":true,"comment_deletion_user_groups":[]},"message_settings":{"comment_list_title":"Comments","comment_box_placeholder":"Leave a comment...","notifications_toggle_label":"Enable/disable notifications","submit_button":{"label":"Submit","icon":""},"cancel_button":{"label":"Cancel","icon":""},"edit_button":{"label":"Edit","icon":"plus"},"delete_button":{"label":"Delete","icon":"trash-01"},"load_more_comments_button":{"label":"Load more comments","icon":""},"empty_state_message":"No comments yet."},"comment_block_settings":[]}}}}).then(() => window.dispatchEvent(new Event("@softr/page-content-loaded")));
+</script>
+
+
+<script src="https://assets.softr-files.com/libs/iframe-resizer/4.2.11/iframeResizer.contentWindow.min.js" crossorigin="anonymous"></script>
+
+<!-- Localhost -->
+<script type="text/javascript">
+    if (window.location.hostname === 'localhost') {
+        if (getUrlParam('domain')) {
+            setCookie('serverName', getUrlParam('domain'), 30);
+        }
+    }
+
+    function setCookie(name, value, days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/;" + "SameSite=None; Secure";
+    }
+
+    function getUrlParam(name) {
+        const url = new URL(window.location.href);
+        let param;
+        for (var key of url.searchParams.keys()) {
+            if (key.toLowerCase() === name.toLowerCase()) {
+                param = url.searchParams.get(name);
+                break;
+            }
+        }
+        return param;
+    }
+</script>
+
+<!-- Modal HTML -->
+<div id="sw-modal" class="sw-modal" aria-hidden="true">
+    <div class="sw-modal-overlay" data-micromodal-close>
+        <div tabindex="-1" class="sw-modal-container">
+            <div role="dialog" aria-modal="true" aria-labelledby="micromodal-title">
+                <button aria-label="Close modal" class="sw-modal-close" onclick="MicroModal.close('sw-modal')"></button>
+                <div id="sw-modal-content">
+                    <iframe class="sw-modal-iframe"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Scroll to section-->
+<script>
+
+    window.addEventListener(BlocksRenderedEventName, function () {
+        $('a').each(function (index, el) {
+            let href = $(el).attr('href');
+            let path = cleanSlugFromPath(location.pathname);
+            if (href && href.startsWith(path + '#')) {
+                const scrollTo = href.split('#')[1];
+                $(this).attr('href', '#' + scrollTo);
+            }
+        });
+
+        function cleanSlugFromPath(pagePath) {
+            if (pagePath.includes("/r/rec")) {
+                pagePath = pagePath.substring(0, pagePath.indexOf("/r/rec"));
+                pagePath = pagePath.substring(0, pagePath.lastIndexOf("/"));
+            }
+
+            return pagePath + (pagePath.endsWith('/') ? '' : '/');
+        }
+    });
+
+</script>
+
+</body>
+
+</html>
