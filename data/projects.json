@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": "babyagi-2",
+      "title": "babyagi 2",
+      "description": "A framework for storing and executing functions from a database by storing metadata (description, embeddings), and dependencies. (auth keys, imports, etc.)",
+      "date": "Dec 2024",
+      "status": "prototype",
+      "statusColor": "bg-blue-100 text-blue-700",
+      "tags": ["ai", "python", "video"],
+      "side": "left",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/babyagi",
+      "featured": true,
+      "image": "/placeholder.svg?height=200&width=300",
+      "imageAlt": "babyagi 2 code interface",
+      "backgroundColor": "bg-purple-100"
+    },
+    {
+      "id": "ditto",
+      "title": "ditto",
+      "description": "The simplest self-building coding agent (~500 lines of code) that builds itself into a multi-file Python Flask app from a simple prompt.",
+      "date": "Nov 2024",
+      "status": "public",
+      "statusColor": "bg-green-100 text-green-700",
+      "tags": ["ai", "javascript", "template"],
+      "side": "right",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/ditto",
+      "featured": true,
+      "image": "/placeholder.svg?height=200&width=300",
+      "imageAlt": "ditto interface diagram",
+      "backgroundColor": "bg-gray-900"
+    },
+    {
+      "id": "babyagi-2o",
+      "title": "babyagi 2o",
+      "description": "The simplest self-building autonomous agent that builds tools for itself and uses them as necessary to handle the user request. (~167 lines of code)",
+      "date": "Oct 2024",
+      "status": "personal",
+      "statusColor": "bg-purple-100 text-purple-700",
+      "tags": ["automation", "no code", "python"],
+      "side": "left",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/babyagi-2o",
+      "featured": true,
+      "image": "/placeholder.svg?height=200&width=300",
+      "imageAlt": "babyagi 2o interface",
+      "backgroundColor": "bg-gray-900"
+    },
+    {
+      "id": "ml-optimizer",
+      "title": "ML Model Optimizer",
+      "description": "Built an optimizer that reduces ML model inference time by 40% while maintaining accuracy.",
+      "date": "Sep 2024",
+      "status": "prototype",
+      "statusColor": "bg-green-100 text-green-700",
+      "tags": ["ai", "optimization", "python"],
+      "side": "right",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/ml-optimizer"
+    },
+    {
+      "id": "data-pipeline",
+      "title": "Data Pipeline Builder",
+      "description": "Designed a visual tool for building complex data pipelines without writing code.",
+      "date": "Aug 2024",
+      "status": "public",
+      "statusColor": "bg-blue-100 text-blue-700",
+      "tags": ["data", "no code", "javascript"],
+      "side": "left",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/data-pipeline-builder"
+    },
+    {
+      "id": "api-gateway",
+      "title": "API Gateway Service",
+      "description": "Built a lightweight API gateway with rate limiting, authentication, and request routing capabilities.",
+      "date": "Jul 2024",
+      "status": "public",
+      "statusColor": "bg-green-100 text-green-700",
+      "tags": ["backend", "api", "javascript"],
+      "side": "right",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/api-gateway"
+    },
+    {
+      "id": "ai-chatbot",
+      "title": "AI Customer Support Bot",
+      "description": "Developed an intelligent chatbot for customer support with natural language understanding and context awareness.",
+      "date": "Jun 2024",
+      "status": "private",
+      "statusColor": "bg-gray-100 text-gray-700",
+      "tags": ["ai", "backend", "live tweet"],
+      "side": "left",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/ai-support-bot"
+    },
+    {
+      "id": "workflow-engine",
+      "title": "Visual Workflow Engine",
+      "description": "Created a drag-and-drop workflow builder for automating business processes without coding.",
+      "date": "May 2024",
+      "status": "prototype",
+      "statusColor": "bg-blue-100 text-blue-700",
+      "tags": ["automation", "no code", "javascript", "template"],
+      "side": "right",
+      "url": "https://www.yohei.me/",
+      "githubUrl": "https://github.com/yoheinakajima/workflow-engine"
+    }
+  ]
+}
